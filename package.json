@@ -1,0 +1,32 @@
+{
+  "name": "uniswap3-js",
+  "version": "1.0.0",
+  "description": "JS implementation of functions used by Uniswap v3 contracts",
+  "scripts": {
+    "build": "esbuild ./src/math/* --bundle --minify --platform=node --target=node16 --format=esm --outdir=./dist --external:./node_modules/*",
+    "format": "prettier --write .",
+    "lint": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillGordievich/uniswap3-js.git"
+  },
+  "keywords": [
+    "uniswap3"
+  ],
+  "author": "Kirill Gordievich <kirill.gordievich777@gmail.com> (https://github.com/KirillGordievich)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirillGordievich/uniswap3-js/issues"
+  },
+  "homepage": "https://github.com/KirillGordievich/uniswap3-js#readme",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "esbuild": "^0.17.11",
+    "eslint-config-prettier": "^8.7.0",
+    "pino-pretty": "^10.0.0",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  }
+}
