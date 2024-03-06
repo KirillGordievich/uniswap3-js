@@ -1,0 +1,9 @@
+.idea
+.vscode
+artifacts
+cache
+coverage
+dist
+docs
+node_modules
+test

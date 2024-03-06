@@ -1,0 +1,8 @@
+.config.json
+.idea
+.vscode
+artifacts
+cache
+coverage
+liquibase.properties
+node_modules
